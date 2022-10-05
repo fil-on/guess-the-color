@@ -42,6 +42,13 @@ body {
   transform: scale(1.2);
 }
 
+.cell:focus,
+.cell:active,
+.restart:focus,
+.restart:active{
+  transform: scale(1);
+}
+
 .rgb-text {
   margin: 10px;
 }
