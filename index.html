@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess The Color</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="canv" width="32" height="32"></canvas>
+  <div class="wrapper">
+    <h1 class="title">GUESS THE COLOR GAME</h1> 
+    <span class="rgb-text">RGB(255, 255, 255)</span>
+    <span class="score"></span>
+    <div class="color-grid">
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+      <div class="cell"></div>
+    </div>
+    <button class="restart">Reset Score</button>
+  </div>
+  <div class="result">
+    <img class="result-image" src="wrong.png" alt="">
+  </div>
+
+
+
+  <script src="index.js"></script>
+</body>
+</html>
